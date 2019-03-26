@@ -11,14 +11,14 @@ like Isomorphic app for server side rendering , and etc.
  * step -2.2 now, go to mysql workbench and do a data import in server menu dropdown. import the dump from the /dumps/Dump20190310 provided in the zip folder .(NOTE: this data has been dump from CSV file provided along with the project but have changed the coloumn and this will work approppriately, also this dump /import would create the entire Mysql schema/database with the correct name).
  * step -3 now if the import is successfull and you can see the schema in mysql workbench , next step is to start the react starte-kit by the command Yarn start in the YoutubeApp directory. this will start the dev server on localhost:3000.
  
- #####and the project is live.
+ ##### and the project is live.
  * have made a sequelize model for youtube data table in /src/data/model/youtubeChannelData.js
  * have created the homepage in /src/routes/home/home.js(almost all of the react code significant for this app is written here along with inline and modular CSS which i have imported from various other component which come by default with RSK.
  * have created the rest endpoint in server.js file . /src/server.js.
  * have created the single channel page in src/routes/channel dir, the navigation to these channels component happens via react Link wraping which again is implemented using history.js.
  *
 
-#####so in a nuttshell below mentioned are the filed where the significant code is written
+##### so in a nuttshell below mentioned are the filed where the significant code is written
 *  src/data/model/youtubechanneldata.js
 *  src/data/model/index.js
 * src/data/sequelize.js
